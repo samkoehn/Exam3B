@@ -18,28 +18,37 @@
             <asp:Label ID="lbl_h2" runat="server" Text="Software Design and Development" meta:resourceKey="lbl_h2"></asp:Label>
         </h2>
         <p>
-            <asp:Label ID="tb_myNameIs" runat="server" Text="My name is"></asp:Label>
-             <asp:TextBox ID="tb_name" runat="server" meta:resourceKey="tb_name"></asp:TextBox>
-           <asp:Label ID="lbl_actualname" runat="server" Text=""></asp:Label>
+            <asp:Label ID="lbl_myNameIs" runat="server" Text="My name is" meta:resourceKey="lbl_myNameIs"></asp:Label>
+             <asp:TextBox ID="tb_name" runat="server" ></asp:TextBox>
+           
     
         </p>
         <p>
-            <asp:Label ID="lbl_gender" runat="server" Text="I am:"></asp:Label>
+            <asp:Label ID="lbl_gender" runat="server" Text="I am:" meta:resourceKey="lbl_gender"></asp:Label>
             <asp:RadioButton ID="rb_female" runat="server" Text="Female" GroupName="Gender" meta:resourceKey="rb_female" />
             <asp:RadioButton ID="rb_male" runat="server" Text="Male" GroupName="Gender" meta:resourceKey="rb_male"/>
-            <asp:Label ID="lbl_actualgender" runat="server" Text=""></asp:Label>
+            
 
         </p>    
         <p>
-            <asp:Label ID="lbl_graduate" runat="server" Text="I plan to graduate on:"></asp:Label>
+            <asp:Label ID="lbl_graduate" runat="server" Text="I plan to graduate on:" meta:resouceKey="lbl_graduate"></asp:Label>
             <asp:TextBox ID="tb_graddate" runat="server"></asp:TextBox>
-            <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
              <asp:Calendar ID="cln_graduate" runat="server"></asp:Calendar>
             
             <br />
-            <asp:Label ID="lbl_salary" runat="server" Text="When I graduate, I hope to earn "></asp:Label> 
+            <asp:Label ID="lbl_salary" runat="server" Text="When I graduate, I hope to earn " meta:resourceKey="lbl_salary"></asp:Label> 
                 <asp:TextBox ID="tb_salary" runat="server"></asp:TextBox>
-               <asp:Label ID="lbl_actualsalary" runat="server" Text=""></asp:Label>   
+                  
+
+            <p>
+                <asp:Label ID="lbl_hello" runat="server" Text="Hello," meta:resourceKey="lbl_hello"></asp:Label>
+                 <asp:Label ID="lbl_actualgender" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lbl_actualname" runat="server" Text=""></asp:Label> 
+                 <asp:Label ID="lbl_response1" runat="server" Text="it's wonderful that you're graduating on " meta:resourceKey="lbl_response1"></asp:Label>
+                <asp:Label ID="lbl_graddate" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lbl_response2" runat="server" Text="and I hope you make" meta:resourceKey="lbl_response2"></asp:Label>
+                <asp:Label ID="lbl_actualsalary" runat="server" Text=""></asp:Label>
+            </p>
 
         </p>
         </div>
