@@ -32,7 +32,6 @@
         </p>    
         <p>
             <asp:Label ID="lbl_graduate" runat="server" Text="I plan to graduate on:" meta:resouceKey="lbl_graduate"></asp:Label>
-            <asp:TextBox ID="tb_graddate" runat="server"></asp:TextBox>
              <asp:Calendar ID="cln_graduate" runat="server"></asp:Calendar>
             
             <br />
