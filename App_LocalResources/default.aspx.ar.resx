@@ -118,21 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbl_h1.Text" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>مرحبا بكم في MSCI: 3300</value>
   </data>
   <data name="lbl_h2.Text" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>تصميم وتطوير البرمجيات</value>
   </data>
   <data name="rb_female.Text" xml:space="preserve">
-    <value>Female</value>
+    <value>أنثى</value>
   </data>
   <data name="rb_male.Text" xml:space="preserve">
-    <value>Male</value>
-  </data>
-  <data name="tb_name.Text" xml:space="preserve">
-    <value>Sam</value>
-  </data>
-  <data name="tb_salary.Text" xml:space="preserve">
-    <value>6666</value>
+    <value>ذكر</value>
   </data>
 </root>

@@ -129,10 +129,4 @@
   <data name="rb_male.Text" xml:space="preserve">
     <value>Male</value>
   </data>
-  <data name="tb_name.Text" xml:space="preserve">
-    <value>Sam</value>
-  </data>
-  <data name="tb_salary.Text" xml:space="preserve">
-    <value>6666</value>
-  </data>
 </root>

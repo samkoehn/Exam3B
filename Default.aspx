@@ -17,32 +17,40 @@
             <asp:Label ID="lbl_h2" runat="server" Text="Software Design and Development" meta:resourceKey="lbl_h2"></asp:Label>
         </h2>
         <p>
-            <asp:Label ID="lbl_name" runat="server" Text="My name is:"></asp:Label> <asp:TextBox ID="tb_name" runat="server" meta:resourceKey="tb_name"></asp:TextBox>
+            <asp:Label ID="lbl_name" runat="server" Text="My name is:"></asp:Label>
+             <asp:TextBox ID="tb_name" runat="server" meta:resourceKey="tb_name"></asp:TextBox>
+            <asp:Label ID="lbl_actualname" runat="server" Text=""></asp:Label>
         </p>
         <p>
-            <asp:Label ID="lbl_gender" runat="server" Text="I am:"></asp:Label> 
-            <asp:RadioButton ID="rb_female" runat="server" Text="Female" meta:resourceKey="rb_female" />
-            <asp:RadioButton ID="rb_male" runat="server" Text="Male" meta:resourceKey="rb_male"/>
+            <asp:Label ID="lbl_gender" runat="server" Text="I am:"></asp:Label>
+            <asp:RadioButton ID="rb_female" runat="server" Text="Female" GroupName="Gender" meta:resourceKey="rb_female" />
+            <asp:RadioButton ID="rb_male" runat="server" Text="Male" GroupName="Gender" meta:resourceKey="rb_male"/>
+            &nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lbl_actualgender" runat="server" Text=""></asp:Label>
         </p>
         <p>
             <asp:Label ID="lbl_graduate" runat="server" Text="I plan to graduate on:"></asp:Label>
+            <asp:TextBox ID="tb_graddate" runat="server"></asp:TextBox>
+            <asp:Label ID="lbl_actualgraddate" runat="server" Text=""></asp:Label>
             <asp:Calendar ID="cln_graduate" runat="server"></asp:Calendar>
+            
+            <br />
             <asp:Label ID="lbl_salary" runat="server" Text="When I graduate, I hope to earn "></asp:Label> 
                 <asp:TextBox ID="tb_salary" runat="server"></asp:TextBox>
+            <asp:Label ID="lbl_actualsalary" runat="server" Text=""></asp:Label>
         </p>
         </div>
         <div id="left align">
-            <p>
-                <asp:Label ID="lbl_langchoice" runat="server" Text="Please choose your language:"></asp:Label>
+                <asp:Label ID="Language1" runat="server" Text="Please choose your language:"></asp:Label>
                 <asp:DropDownList ID="ddl_language" runat="server">
+                    <asp:ListItem Value="auto">Auto</asp:ListItem>
                     <asp:ListItem Value="en-US">English (US)</asp:ListItem>
                     <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
                     <asp:ListItem Value="ar">Arabic</asp:ListItem>
                     <asp:ListItem Value="zh">Chinese</asp:ListItem>
-
-
                 </asp:DropDownList>
-            </p>
+            <asp:Button ID="btn_submit" runat="server" Text="Submit" />
+            <asp:Button ID="btn_clear" runat="server" Text="Clear" />
 
         </div>
     </div>
