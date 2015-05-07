@@ -15,12 +15,6 @@ Partial Class _Default
     End Sub
 
 
-
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim money As Decimal =
-        tb_salary.Text = String.Format("{0:c}", money)
-    End Sub
-
     Protected Sub btn_clear_Click(sender As Object, e As EventArgs) Handles btn_clear.Click
         tb_name.Text = String.Empty
         tb_salary.Text = String.Empty
@@ -33,19 +27,19 @@ Partial Class _Default
     Protected Sub btn_submit_Click(sender As Object, e As EventArgs) Handles btn_submit.Click
 
         Dim name As String
-        Dim salary As String
-        Dim gender As String
-        Dim graduation As String
+        Dim graduation As Date
+        Dim money As Decimal = tb_salary.Text = String.Format("{0:c}", money)
 
         name = tb_name.Text
-        salary = tb_salary.Text
-        gender =
-        graduation = tb_graddate.Text
+        graduation = cln_graduate.SelectedDate
+
 
         lbl_actualname.Text = name
-        lbl_actualgender.Text = gender
-        lbl_actualsalary.Text = salary
-        lbl_actualgraddate.Text = graduation
+        lbl_actualsalary.Text = money
+        lbl_graduate.Text = graduation
+
+        If rb_female.Checked = True Then lbl_gender.Text = "Ms."
+        If rb_male.Checked = True Then lbl_gender.Text = "Mr."
 
 
 
