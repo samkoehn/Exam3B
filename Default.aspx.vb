@@ -21,6 +21,7 @@ Partial Class _Default
         rb_female.Text = String.Empty
         rb_male.Text = String.Empty
 
+
         lbl_h1.Visible = True
         lbl_h2.Visible = True
 
@@ -30,6 +31,7 @@ Partial Class _Default
         lbl_gender.Visible = True
         rb_female.Visible = True
         rb_male.Visible = True
+
 
         lbl_graduate.Visible = True
         cln_graduate.Visible = True
@@ -58,14 +60,15 @@ Partial Class _Default
 
         Dim name As String
         Dim graduation As Date
-        Dim money As Decimal = tb_salary.Text = String.Format("{0:c}", money)
+        Dim money As Decimal = CDec(tb_salary.Text)
+
 
         name = tb_name.Text
         graduation = cln_graduate.SelectedDate
 
 
         lbl_actualname.Text = name
-        lbl_actualsalary.Text = money
+        lbl_actualsalary.Text = String.Format("{0:c}", money)
         lbl_graddate.Text = graduation
 
         If rb_female.Checked = True Then lbl_actualgender.Text = "Ms."

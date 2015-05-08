@@ -18,7 +18,7 @@
             <asp:Label ID="lbl_h2" runat="server" Text="Software Design and Development" meta:resourceKey="lbl_h2"></asp:Label>
         </h2>
         <p>
-            <asp:Label ID="lbl_myNameIs" runat="server" Text="My name is" meta:resourceKey="lbl_myNameIs"></asp:Label>
+            <asp:Label ID="lbl_myNameIs" runat="server" Text="My name is" meta:resourceKey="lbl_myNameIs" ></asp:Label>
              <asp:TextBox ID="tb_name" runat="server" ></asp:TextBox>
            
     
@@ -31,7 +31,7 @@
 
         </p>    
         <p>
-            <asp:Label ID="lbl_graduate" runat="server" Text="I plan to graduate on:" meta:resouceKey="lbl_graduate"></asp:Label>
+            <asp:Label ID="lbl_graduate" runat="server" Text="I plan to graduate on:" meta:resourceKey="lbl_graduate"></asp:Label>
              <asp:Calendar ID="cln_graduate" runat="server"></asp:Calendar>
             
             <br />
@@ -54,7 +54,6 @@
         <div id="left_align">
                 <asp:Label ID="lbl_chooseLang" runat="server" Text="Please choose your language:"></asp:Label>
                 <asp:DropDownList ID="Language1" runat="server" AutoPostBack="True">
-                    <asp:ListItem Value="auto">Auto</asp:ListItem>
                     <asp:ListItem Value="en-US">English (US)</asp:ListItem>
                     <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
                     <asp:ListItem Value="ar">Arabic</asp:ListItem>

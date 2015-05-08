@@ -117,11 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbl_gender.Text" xml:space="preserve">
+    <value>Soy:</value>
+  </data>
+  <data name="lbl_graduate.Text" xml:space="preserve">
+    <value>Tengo la intención de graduarse en:</value>
+  </data>
   <data name="lbl_h1.Text" xml:space="preserve">
     <value>Bienvenido a MSCI: 3300</value>
   </data>
   <data name="lbl_h2.Text" xml:space="preserve">
     <value>Diseño y Desarrollo de Software</value>
+  </data>
+  <data name="lbl_hello.Text" xml:space="preserve">
+    <value>Hola,</value>
+  </data>
+  <data name="lbl_myNameIs.Text" xml:space="preserve">
+    <value>Mi nombre es:</value>
+  </data>
+  <data name="lbl_response1.Text" xml:space="preserve">
+    <value>que es maravilloso que usted está graduando en</value>
+  </data>
+  <data name="lbl_response2.Text" xml:space="preserve">
+    <value>y espero que usted haga</value>
+  </data>
+  <data name="lbl_salary.Text" xml:space="preserve">
+    <value>Cuando me gradúe, espero ganar</value>
   </data>
   <data name="rb_female.Text" xml:space="preserve">
     <value>femenino</value>

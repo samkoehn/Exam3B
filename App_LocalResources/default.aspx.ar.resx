@@ -117,11 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbl_gender.Text" xml:space="preserve">
+    <value>انا:</value>
+  </data>
+  <data name="lbl_graduate.Text" xml:space="preserve">
+    <value>أخطط لتخرج على:</value>
+  </data>
   <data name="lbl_h1.Text" xml:space="preserve">
     <value>مرحبا بكم في MSCI: 3300</value>
   </data>
   <data name="lbl_h2.Text" xml:space="preserve">
     <value>تصميم وتطوير البرمجيات</value>
+  </data>
+  <data name="lbl_hello.Text" xml:space="preserve">
+    <value>مرحبا،</value>
+  </data>
+  <data name="lbl_myNameIs.Text" xml:space="preserve">
+    <value>اسمي هو:</value>
+  </data>
+  <data name="lbl_response1.Text" xml:space="preserve">
+    <value>أنه لأمر رائع أن كنت تخرجه على</value>
+  </data>
+  <data name="lbl_response2.Text" xml:space="preserve">
+    <value>وآمل أن تجعل</value>
+  </data>
+  <data name="lbl_salary.Text" xml:space="preserve">
+    <value>عندما تخرجي، وآمل أن يكسب</value>
   </data>
   <data name="rb_female.Text" xml:space="preserve">
     <value>أنثى</value>

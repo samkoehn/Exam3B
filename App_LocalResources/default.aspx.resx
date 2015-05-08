@@ -117,31 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lbl_Gender" xml:space="preserve">
+  <data name="lbl_gender.Text" xml:space="preserve">
     <value>I am: </value>
   </data>
-  <data name="lbl_graduation" xml:space="preserve">
+  <data name="lbl_graduate.Text" xml:space="preserve">
     <value>I plan to graduate on:</value>
   </data>
   <data name="lbl_h1.Text" xml:space="preserve">
     <value>Welcome to MSCI:3300</value>
   </data>
-  <data name="lbl_h2.Text" xml:space="preserve">
+  <data name="lbl_h2.Text.Text" xml:space="preserve">
     <value>Software Design and Development</value>
   </data>
-  <data name="lbl_hello" xml:space="preserve">
+  <data name="lbl_hello.Text" xml:space="preserve">
     <value>Hello, </value>
   </data>
-  <data name="lbl_myNameIs" xml:space="preserve">
+  <data name="lbl_myNameIs.Text" xml:space="preserve">
     <value>My name is:</value>
   </data>
-  <data name="lbl_response1" xml:space="preserve">
+  <data name="lbl_response1.Text" xml:space="preserve">
     <value>it's wonderful that you're graduating on</value>
   </data>
-  <data name="lbl_response2" xml:space="preserve">
+  <data name="lbl_response2.Text" xml:space="preserve">
     <value>and I hope you make</value>
   </data>
-  <data name="lbl_salary" xml:space="preserve">
+  <data name="lbl_salary.Text" xml:space="preserve">
     <value>When I graduate, I hope to earn</value>
   </data>
   <data name="rb_female.Text" xml:space="preserve">
